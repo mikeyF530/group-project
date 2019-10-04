@@ -1,0 +1,24 @@
+.navbar {
+    background-image: url("./Imgs/marvel-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 1584px 138px;
+    height: 128px;
+    font-family: 'Marvel', sans-serif;
+    color: #FFFFFF;
+}
+footer {
+    background-color: black;
+}
+.form-inline {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    z-index: 2;
+}
+#navbarNav a {
+    color: #FFFFFF;
+}
+
+/* #navbarNav a:visited {
+    color: #FFFFFF;
+} */
