@@ -8,37 +8,37 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./assets/style.css">
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Marvel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- <a class="navbar-brand" href="#"># Marvels</a> -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" data-toggle="modal" data-target="#Hashtag" href="#">Hashtag<span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-link" data-toggle="modal" data-target="#comics" href="#">Comics<span
+                            class="sr-only">Comivs</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" data-toggle="modal" data-target="#Classification" href="#">Classification</a>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#photos" href="#">Photos</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" data-toggle="modal" data-target="#Summary" href="#">Summary</a>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#summary" href="#">Summary</a>
                 </li>
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </div>
     </nav>
-    <form class="form-inline">
-            <i class="fas fa-search" aria-hidden="true"></i>
-            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-              aria-label="Search">
-          </form>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -53,13 +53,13 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="Hashtag" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <div class="modal fade" id="comics" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
-                        Hashtag
+                        Comics
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -76,13 +76,13 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="Classification" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <div class="modal fade" id="photos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalCenterTitle">
-                        Classification
+                        Photos
                     </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -99,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="Summary" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    <div class="modal fade" id="summary" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -123,7 +123,7 @@
         </div>
     </div>
     <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-</blockquote>
+    </blockquote>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

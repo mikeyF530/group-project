@@ -6,19 +6,24 @@
     font-family: 'Marvel', sans-serif;
     color: #FFFFFF;
 }
+
 footer {
     background-color: black;
 }
-.form-inline {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    z-index: 2;
-}
-#navbarNav a {
+
+.form-inline .form-control {
+    font-size: 23px;
     color: #FFFFFF;
 }
 
-/* #navbarNav a:visited {
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #FFFFFF;
-} */
+    font-family: 'Marvel', sans-serif;
+    font-size: 23px;
+}
+
+.btn-outline-success {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-family: 'Marvel', sans-serif;
+}
